@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styledesign.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.php"><i class=""></i>&nbsp;&nbsp;Equipment Rental System</a>
+    <!-- Toggler/collapsibe Button -->
+    
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+            <a class="nav-link active" href="RegisterNewUser.html"><i class="fas fa-mobile-alt mr-2"></i>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="SignIn.html"><i class="fas fa-mobile-alt mr-2"></i>Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="ProductNS.php"><i class="fas fa-th-list mr-2"></i>Products</a>
+        </li>  
+      </ul>
+    </div>
+  </nav>
+    
+    <div class="regform">
+        
+        <h1>Registration Form</h1>     
+    </div>
+    
+<div class="main">
+    <form method="POST" action="RegisterNewUser.php">    
+            <div id="name">
+                
+                <h2 class="name">Name </h2>
+                
+                <input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">Full name</label>
+                <input class="lastname" type="text" name="last_name"><br>
+                <label class="lastlabel">Surname</label>
+                
+            </div>
+        
+            <h2 class="name">Username</h2>
+            <input class="username" type="text" name="username">
+            
+            <h2 class="name">Password </h2>
+            
+            <input class="password" type="password" name="password">
+            
+            <h2 class="name">Email</h2>
+            
+            <input class="email" type="email" name="email">
+            
+            <h2 class="name">Phone</h2>
+
+            
+            <input class="number" type="text" name="phone">
+            
+            <h2 class="name">Gender</h2>
+                        
+            <select class="option" name="Gender">
+                <option disabled="disabled" selected="selected">--Choose option--</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <button type="submit">Register</button>
+    </form> 
+    
+    <form method="POST" action="index.php"><button type="submit">Cancel</button></form>
+</div>
+
+</body>
+</html>

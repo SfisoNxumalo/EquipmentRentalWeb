@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign In - Equipment Rental System</title>
+        
+        <link rel="stylesheet" type="text/css" href="styledesign.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css' />
+  
+  <script>
+      
+      function validate(form)
+      {
+          fail = validateUsername(form.UserName.value);
+          fail += validatePassword(form.Password.value);
+
+          if(fail == "")
+          {
+              return true;
+          }
+          else
+          { 
+              alert(fail); 
+              return false;
+          }
+      }
+      
+      function validateUsername(field)
+      {
+          if(field === "") return "No Username was entered.\n";
+          return "";
+      }
+      
+      function validatePassword(field)
+      {
+          if(field === "") return "No Password was entered.\n";
+          return "";
+      }
+      
+  </script>
+    </head>
+    
+    
+    <body>
+       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.php"><i class=""></i>&nbsp;&nbsp;Equipment Rental System</a>
+    <!-- Toggler/collapsibe Button -->
+    
+      <span class="navbar-toggler-icon"></span>
+    
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link active" href="RegisterNewUser.html"><i class="fas fa-mobile-alt mr-2"></i>Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="SignIn.html"><i class="fas fa-mobile-alt mr-2"></i>Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="ProductNS.php"><i class="fas fa-th-list mr-2"></i>Products</a>
+        </li>   
+      </ul>
+    </div>
+  </nav>
+        <div class="admindesign">
+            <img src="adminicon.jpg" class="adminicon">
+            <h1>Sign In</h1>
+            <form method="POST" action="Login.php" onsubmit="return validate(this)">
+                <p>Username</p>
+                <input type="text" name="UserName" placeholder="Enter Username" required>
+                <p>Password</p>
+                <input type="password" name="Password" placeholder="Enter Password" required>
+                <input type="submit" name="btn-login" value="Sign In" class="btn-login">
+                <br>
+                <a href="#">Forgot your password?</a><br>
+               </form>
+            <form method="POST" action="RegisterNewUser.html">
+                <div id="reeg"><input type="submit" name="register" value="Register Here" class="btn-view"></div> 
+            </form>
+            <form method="POST" action="index.php">
+                <div id="reg"><input type="submit" name="cancel" value="Cancel" class="btn-view"></div>
+                
+            </form>
+            
+            
+        </div>
+    </body>
+</html>

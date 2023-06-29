@@ -1,0 +1,712 @@
+body{
+    position: absolute;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-image: url(homedesign.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+/*Home page design*/
+
+.homepage{
+    width: 940px;
+    height: 760px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    background: rgba(90, 1, 47, 0.8);
+    transform: translate(-50%,-50%);
+}
+
+
+a1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 70px;
+}
+a2{
+    margin: 0;
+    padding: 0 0 2px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container{
+    width: 80%;
+    position: relative;
+    margin: 0px auto;
+    padding: 200px 0;
+    clear: both;
+}
+
+/*User LogIn Design*/
+.signin{
+    width: 320px;
+    height: 450px;
+    background: rgba(90, 1, 47, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 50px);
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.signin p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signin input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signin input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.signin input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgba(224, 27, 82, 0.62);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signin input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.signin a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.signin a:hover
+{
+    color: #ffc107;
+}
+
+.error{
+    background: #F2DED;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+/*Register Design*/
+
+*{
+  margin:0;
+  padding:0;
+  }
+
+   .regform{
+          width:800px;
+    background-color:rgb(0,0,0,0.6);
+    margin:auto;
+    color:#FFFFFF;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius:15px 15px 0px 0px ;
+    }  
+  .main{
+      background-color:rgba(90, 1, 47, 0.8);
+   width:800px;
+   margin:auto;}
+  
+  form{
+      padding:10px;
+   
+  } 
+  
+  #name{
+       width:100%;
+    height:100px;
+    
+    }  
+  .name{
+            margin-left:25px;
+   margin-top:30px;
+   width: 125px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;}
+.firstname{
+                   position: relative;
+       left:200px;
+       top:-37px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }
+.lastname{
+             position: relative;
+       left:417px;
+       top:-80px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color:#555;       
+                  }  
+ .firstlabel{
+            position:relative;
+            color:#E5E5E5;    
+      text-transform: capitalize;
+   font-size: 14px;
+   left:203px;
+   top:-45px;
+   }   
+.lastlabel{
+            position:relative;
+   color:#E5E5E5;
+   text-transform:capitalize;
+   font-size:14px;
+   left:492px;
+   top:-76px;
+     } 
+     
+     .username{
+           position:relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  }
+.password{
+           position:relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  }
+ .email{
+        position:relative;
+  left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  
+    }     
+ 
+   .Code{
+         position:relative;
+  left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:95px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  
+  }
+ .number{
+         position:relative;
+  left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:255px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555; 
+     }
+ .area-code{
+            position:relative;
+      color:#E5E5E5;
+      text-transform:capitalize;
+      font-size:16px;
+      left:54px;
+      top:-4px;
+     }
+ .phone-number{
+              position:relative;
+      color:#E5E5E5;
+      text-transform:capitalize;
+      font-size:16px;
+      left:-100px;
+      top:-2px;
+     }
+ .option{
+         position:relative;
+  left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:532px;
+     height:40px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555; 
+     outline:none;
+     overflow:hidden;
+  }    
+     .option option{
+                 font-size:20px;
+       }
+   #coustomer{
+                margin-left:25px;
+    color:white;
+    font-size:18px;
+    
+      } 
+
+    button{
+        background-color:#3BAF9F;
+     display:block;
+     margin:20px 0px 0px 20px;
+     text-align:center;
+     border-radius:12px;
+     border:2px solid #366473;
+     padding:14px 110px;
+     outline:none;
+     color:white;
+     cursor:pointer;
+     transition:0.25px;
+    } 
+   button:hover{
+                background-color:#5390F5;
+      }
+ 
+      
+ /*Admin LogIn Design*/
+.admindesign{
+    width: 380px;
+    height: 510px;
+    background: rgba(90, 1, 47, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.adminicon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 50px);
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.admindesign p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.admindesign input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.admindesign input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.admindesign input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgba(224, 27, 82, 0.62);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.admindesign input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.admindesign a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.admindesign a:hover
+{
+    color: #ffc107;
+}
+
+.error{
+    background: #F2DED;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/*Table design Admin*/
+.information{
+    width: 915px;
+    height: 710px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 68px 15px;
+}
+
+
+.information input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 420px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.information input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.information a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.information a:hover
+{
+    color: #ffc107;
+}
+
+/*Table design*/
+.content-table{
+    border-collapse: separate;
+    margin: 50px 0;
+    border-radius: 18px 19px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.content-table th,
+.content-table td{
+    padding: 8px 18px;
+}
+
+.content-table tbody tr{
+    border-bottom: #fff;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #333333;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.content-table input[type="checkbox"]{
+    margin: 1em;    
+}
+
+/*Add Decor Design*/
+.adddecor{
+    width: 450px;
+    height: 680px;
+    background: rgba(90, 1, 47, 0.8);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.addicon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -9%;
+    left: calc(50% - 50px);
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.adddecor p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.adddecor input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.adddecor input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.adddecor input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgba(224, 27, 82, 0.62);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.adddecor input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.adddecor a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.adddecor a:hover
+{
+    color: #ffc107;
+}
+
+.error{
+    background: #F2DED;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/*Edit Decor Design*/
+.editdecor{
+    width: 550px;
+    height: 760px;
+    background: rgba(90, 1, 47, 0.8);
+    color: #fff;
+    top: 54%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 20px;
+}
+
+.editicon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -9%;
+    left: calc(50% - 50px);
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.editdecor p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.editdecor input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.editdecor input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.editdecor input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgba(224, 27, 82, 0.62);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.editdecor input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.editdecor a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.editdecor a:hover
+{
+    color: #ffc107;
+}
+
+.error{
+    background: #F2DED;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/*Button Design*/
+.button2{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.div2{
+    
+    float: right;
+}
+
